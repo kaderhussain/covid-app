@@ -16,7 +16,7 @@ const Chart = ({data:{confirmed,recovered,deaths}, country})=>{
         fetchAPI();
         console.log( dailyData.map((date)=>date));
 
-    },[])
+    },[setDailyData])
     
 
     const lineChart =(
